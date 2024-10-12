@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuessNumber</title>
+    <linK href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>GUESS MY NUMBER</h1>
+        <button class="btn" onclick=againbtnWork()>AGAIN... !</button>
+        <p>GUESS THE NUMBER BETWEEN 1 AND 20</p>
+    </header>
+    <section>
+        <div class="lay">
+            <div class="line"></div>
+            <div class="numShow" id="numShow">??</div>
+        </div>
+        <section class="inSec">
+            <div>
+                <form action="/">
+                    <input type="number" class="numInput" id="numInput" value="" onclick=displayBtnIncDec()></input>
+                 </form>
+                <button class="btn check" onclick=checking()>CHECK</button>
+            </div>
+            <div class="scoring">
+                <div>📊<p class="rate">START GUESSING...</p>
+                </div>
+                <div>🏆<p class="score">SCORE : </p><span class="scoreId"> 20</span></div>
+                <div>🏅<p class=" score highScore" >HIGH SCORE :</p><span class="highScoremark"></span></div>
+            </div>
+        </section>
+    </section>
+    <script src="first.js"></script>
+</body>
+
+</html>
