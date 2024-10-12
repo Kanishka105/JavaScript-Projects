@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(122, 10, 10);
+}
+
+header p {
+  font-weight: 600;
+  color: orange;
+  position: absolute;
+  right: 15px;
+  top: 60px;
+}
+.btn {
+  margin-left: 2px;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: rgb(92, 227, 92);
+  border: 2px solid green;
+  box-shadow: 2px 4px 6px green;
+  margin-top: 10px;
+}
+
+.lay {
+  position: relative;
+  margin-top: 64px;
+}
+.line,
+.numShow {
+  border: 2px solid gainsboro;
+}
+.numShow {
+  font-size: 30px;
+  padding: 23px 65px 23px 35px;
+  text-align: center;
+  width: 8%;
+  position: absolute;
+  top: -40px;
+  left: 44%;
+  box-shadow: 6px 8px 10px hwb(180 91% 9%);
+  background-color: white;
+}
+.inSec {
+  margin: 65px auto 0 auto;
+  width: 78%;
+  display: grid;
+  grid-template-columns: 55% 45%;
+  gap: 10px;
+  position: relative;
+}
+
+.numInput {
+  height: 70px;
+  width: 64%;
+  border: 2px solid black;
+}
+.numInput:action {
+  border: 2px solid rgb(52, 188, 52);
+}
+
+.rate {
+  margin-bottom: 35px;
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 24px;
+}
+.score {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 900;
+}
+@media only screen and (max-width: 450px) {
+  .btn {
+    padding: 6px;
+  }
+  header p {
+    font-size: 15px;
+    margin-top: -7px;
+    width: 250px;
+  }
+  .insec {
+    margin: 0;
+    display: grid;
+  }
+  .score {
+    font-size: 10px;
+  }
+  .scoring {
+    margin-top: 5px;
+  }
+  .rate {
+    font-size: 15px;
+  }
+  .numShow {
+    position: absolute;
+    left: 33%;
+  }
+}
