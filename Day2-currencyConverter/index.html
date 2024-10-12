@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Currency-Converter</title>
+  </head>
+  <body>
+    <main>
+      <h1>Currency-Converter</h1>
+      <form class="form">
+        <div class="block">
+          <label for="amt">Amount</label>
+          <input
+            type="number"
+            reuired
+            placeholder="Enter the Amount"
+            class="amt-input"
+          />
+        </div>
+        <div class="block">
+          <label for="from-currency">
+            Select the Currency from which you want to convert
+          </label>
+          <select class="from">
+            <option value="select">Select</option>
+            <option value="AED">AED</option>
+            <option value="AFN">AFN</option>
+            <option value="ALL">ALL</option>
+          </select>
+        </div>
+        <div class="block">
+          <label for="to-currency">
+            Select the Currency for which you want to convert
+          </label>
+          <select class="to">
+            <option value="select">Select</option>
+            <option value="AED">AED</option>
+            <option value="AFN">AFN</option>
+            <option value="ALL">ALL</option>
+          </select>
+        </div>
+        <button class="btn btn-1">Submit</button>
+      </form>
+      <table class="ansBlock">
+        <thead>
+          <tr>
+            <th>Amount</th>
+            <th>From-Currency</th>
+            <th>To-Currency</th>
+            <th>Result</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="amt-print"></td>
+            <td class="from-cur-print"></td>
+            <td class="to-cur-print"></td>
+            <td class="res-print"></td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <script src="first.js"></script>
+  </body>
+</html>
