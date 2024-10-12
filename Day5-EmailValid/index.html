@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>EmailValidator</title>
+  </head>
+  <body>
+    <header class="head">
+      <ul class="navbar">
+        <li><a>iValidation</a></li>
+        <li><a>Home</a></li>
+        <li><a>About Us</a></li>
+        <li><a>Sign In</a></li>
+        <li><a>Help</a></li>
+      </ul>
+    </header>
+    <main>
+      <div>
+        <h2>Enter the Email Id</h2>
+        <form>
+          <label for="user">Useremail</label>
+          <input
+            type="email"
+            placeholder="Enter Email..."
+            required
+            id="email"
+          /><br />
+          <br />
+
+          <button id="submit">Submit</button>
+        </form>
+        <div class="res">
+          <h3>Result Details</h3>
+          <div id="resultCont"></div>
+          <div class="flex">
+            <span>Email :-</span>
+            <p id="res"></p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="foot">
+      <span>CopyRight||validation.com||All Rights Are Reserved</span>
+    </footer>
+    <script src="js/first.js"></script>
+  </body>
+</html>
