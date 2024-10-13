@@ -221,6 +221,8 @@ ion-icon,
   text-decoration: none;
   font-weight: 800;
   z-index: 2;
+  border-radius: 10px;
+  outline: none;
   border: none;
 }
 .color-ele:hover {
@@ -240,12 +242,10 @@ ion-icon,
 .comment {
   background-color: white;
   margin: 0 auto;
-  max-width: 80vw;
+  max-width: 70rem;
   padding: 6rem;
-  position: absolute;
+
   padding: 6rem 10rem;
-  top: 20rem;
-  left: 10rem;
 }
 .icon-opera {
   margin-right: 2rem;
@@ -274,9 +274,7 @@ ion-icon,
   width: 90%;
   font-size: 1.4rem;
 }
-.pink {
-  color: pink;
-}
+
 /* slide */
 .slide-section {
   background-color: rgba(193, 192, 192, 0.2);
@@ -378,4 +376,10 @@ ion-icon,
 /* lazy-img */
 .lazy-img {
   filter: blur(20px);
+}
+
+@media screen and (max-width: 720px) {
+  html {
+    font-size: 43%;
+  }
 }
