@@ -42,7 +42,7 @@ li {
 table {
   text-align: center;
   margin: 1rem auto;
-  width: 60vw;
+  max-width: 20rem;
 }
 thead {
   background-color: black;
@@ -61,8 +61,10 @@ th {
   height: 100%;
 }
 td {
+  max-width: 11rem;
   padding: 0.3rem;
   font-size: 1.5rem;
+  overflow-x: scroll;
   border: 2px solid black;
 }
 del {
@@ -110,4 +112,9 @@ footer {
 span {
   font-size: 1.5rem;
   margin-bottom: 0.6rem;
+}
+@media screen and (max-width: 630px) {
+  html {
+    font-size: 62%;
+  }
 }
