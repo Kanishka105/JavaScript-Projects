@@ -1,0 +1,113 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  cursor: pointer;
+}
+.navEleBox {
+  display: flex;
+  gap: 0.4rem;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  width: 100vw;
+}
+a:hover {
+  color: grey;
+  text-decoration: underline;
+}
+#yourPass {
+  color: grey;
+}
+
+p {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+main {
+  margin: 3rem auto;
+  width: 70vw;
+  text-align: center;
+}
+li {
+  list-style-type: none;
+}
+table {
+  text-align: center;
+  margin: 1rem auto;
+  width: 60vw;
+}
+thead {
+  background-color: black;
+  color: white;
+}
+th {
+  padding: 0.5rem;
+}
+.delect-btn {
+  background-color: black;
+  color: white;
+  padding: 0.5rem 0.8rem;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+}
+td {
+  padding: 0.3rem;
+  font-size: 1.5rem;
+  border: 2px solid black;
+}
+del {
+  padding: 0;
+  border: none;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  /* border:2px solid yellow; */
+  margin: 10%;
+}
+label {
+  font-size: 1.7rem;
+  font-weight: 900;
+}
+input {
+  padding: 0.7rem;
+  border: 3px solid black;
+  margin-bottom: 1rem;
+}
+#submitBtn {
+  background-color: black;
+  color: aliceblue;
+  margin: 3rem 0px;
+  padding: 10px;
+}
+footer {
+  padding: 20px;
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+.web-block {
+  position: absolute;
+  top: 59%;
+  left: 38.7%;
+  border: 2px solid black;
+  width: 4.7rem;
+  height: 1.4rem;
+}
+span {
+  font-size: 1.5rem;
+  margin-bottom: 0.6rem;
+}
